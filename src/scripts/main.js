@@ -8,7 +8,6 @@ let totalPopulation = 0;
 let numberOfCountries = 0;
 
 for (const population of populations) {
-
   const countryPopulation = +population.textContent.split(',').join('');
 
   totalPopulation += countryPopulation;
