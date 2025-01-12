@@ -1,5 +1,5 @@
 {
-  "name": "js_get_data_DOM",
+  "name": "js_get_data_dom",
   "author": "Mate Academy",
   "version": "1.0.0",
   "description": "js_get_data_DOM",
@@ -16,7 +16,7 @@
     "deploy": "mate-scripts deploy",
     "update": "mate-scripts update",
     "postinstall": "npm run update",
-    "test": "npm run lint && npm run test:only"
+    "start": "parcel src/index.html"
   },
   "devDependencies": {
     "@linthtml/linthtml": "^0.9.6",
@@ -35,7 +35,7 @@
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0",
-    "parcel": "^2.12.0",
+    "parcel": "^1.12.3",
     "prettier": "^3.3.2",
     "stylelint": "^16.7.0",
     "stylelint-scss": "^6.4.1"
@@ -53,5 +53,14 @@
       "backstop": false,
       "cypress": false
     }
-  }
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurnsw/js_get_data_DOM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wurnsw/js_get_data_DOM/issues"
+  },
+  "homepage": "https://github.com/wurnsw/js_get_data_DOM#readme"
 }
